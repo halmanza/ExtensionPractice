@@ -1,0 +1,14 @@
+{
+    "name": "Practice Extension",
+    "version": "1.0",
+    "description": "sending message to background",
+    "manifest_version": 2,
+    "background" : {
+        "scripts": ["scripts/background.js"],
+        "persistent" : true
+    },
+    "browser_action" :{
+        "default_popup": "popup/popup.html"
+    },
+    "permissions" :["tabs"]
+  }
